@@ -1,7 +1,6 @@
 import './App.css';
 import FruitContainer from './Components/FruitContainer';
-
-const fruits = ['Apple', 'Kiwi', 'Banana', 'Pineapple'];
+import fruits from './Lists/fruit';
 
 function App() {
     return (
