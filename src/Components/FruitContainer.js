@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import List from './Components/List';
-import Input from './Components/Input';
+import List from './List';
+import Input from './Input';
 
 class FruitContainer extends Component {
     constructor(props) {
@@ -27,9 +27,9 @@ class FruitContainer extends Component {
             <div className="Fruit-Container">
                 <Input
                     value={this.state.filterValue}
-                    onClick={this.handleFilterChange}
+                    onChange={this.handleFilterChange}
                 />
-                <List list={this.state.fruitToDisp} />
+                <List fruits={this.state.fruitToDisp} />
             </div>
         );
     }
