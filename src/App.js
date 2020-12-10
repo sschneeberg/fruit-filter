@@ -1,9 +1,12 @@
-import List from './Components/List';
-import Input from './Components/Input';
 import './App.css';
+import FruitContainer from './Components/FruitContainer';
 
 function App() {
-    return <div className="App"></div>;
+    return (
+        <div className="App">
+            <FruitContainer />
+        </div>
+    );
 }
 
 export default App;

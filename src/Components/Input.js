@@ -6,7 +6,12 @@ class Input extends Component {
         this.state = {};
     }
     render() {
-        return <div className="Input">Input</div>;
+        return (
+            <div className="Input">
+                <label htmlFor="fruit-filter">Filter these fruits: </label>
+                <input type="text" name="fruit-filter" />
+            </div>
+        );
     }
 }
 

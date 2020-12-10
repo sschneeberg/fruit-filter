@@ -6,7 +6,11 @@ class List extends Component {
         this.state = {};
     }
     render() {
-        return <div className="List">List</div>;
+        return (
+            <div className="List">
+                <ul>{/* List will go here*/}</ul>
+            </div>
+        );
     }
 }
 
